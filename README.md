@@ -36,8 +36,9 @@ armazenando as informações em um banco de dados SQLite.
 
 01.**Clone este repositório:**
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+```bash
+git clone https://github.com/Leodavilaa/extracao-produtos-maeto.git
+cd extracao-produtos-maeto
 
 02.**Instale as dependências:**
 
