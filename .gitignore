@@ -1,0 +1,28 @@
+# Banco de dados
+produtos.db
+
+# Compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+env/
+venv/
+.venv/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Configs de IDEs (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
