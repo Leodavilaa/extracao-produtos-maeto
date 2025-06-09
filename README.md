@@ -36,7 +36,6 @@ armazenando as informações em um banco de dados SQLite.
 
 01.**Clone este repositório:**
 
-```bash
 git clone https://github.com/Leodavilaa/extracao-produtos-maeto.git
 cd extracao-produtos-maeto
 
@@ -44,10 +43,13 @@ cd extracao-produtos-maeto
 
 pip install -r requirements.txt
 
-03.**Execute o script:**
+03.**Crie o banco de dados executando:**
 
-python create_database.py  # Cria o banco de dados
-python main.py             # Executa a extração
+python create_database.py
+
+04.**Execute o script:**
+
+python main.py  
 
 
 
@@ -60,12 +62,21 @@ O script navegará automaticamente pelo site, coletará os dados de todos os pro
 
 ## 📁 Estrutura do Projeto
 
-📦 seu-repositorio/
-├── main.py
-├── produtos.db
-├── requirements.txt
-└── README.md
+📦 extracao-produtos-maeto/
+│
+├── create_database.py       # Script para criar o banco e tabela
+├── main.py                  # Script principal da aplicação
+├── requirements.txt         # Pacotes necessários
+├── .gitignore               # Ignora o banco e pastas cache
+└── README.md                # Este arquivo
 
-## 📄 Licença
+## 📄 Licença 
 
-```Este projeto está licenciado sob a MIT License.
+Este projeto está licenciado sob a MIT License.
+
+## 🧠 Autor
+
+Leonardo D'Avila
+github.com/Leodavilaa
+
+
